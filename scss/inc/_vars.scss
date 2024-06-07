@@ -1,0 +1,25 @@
+// Fonts
+$primaryFont: 'Objectivity';
+$secondaryFont: 'Objectivity';
+$textFont: 'Objectivity';
+$boldTextFont: 'Objectivity';
+$baseFontSize: 16px;
+$baseFontColor: #031926;
+
+// Colours
+$primary: #02395a;
+$primaryLight: #F6F2FD;
+$secondary: #e0c16e;
+$tertiary: #aa9b89;
+$quaternary: #F6F8FF;
+$lightgrey: #efefef;
+$text: $baseFontColor;
+$textLight: #435366;
+$border: #d6dbe1;
+$white: #fff;
+$borderDark: lighten($text, 35%);
+$success: #64c82d;
+$warning: #ffc458;
+$error: tomato;
+
+$grey: #eff4f7;

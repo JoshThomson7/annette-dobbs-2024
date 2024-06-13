@@ -80,7 +80,7 @@ Tabs
                 &.active,
                 &:hover {
                     a {
-                        background: var(--fl1-primary-light);
+                        background: $tertiary;
                     }
                 }
             }

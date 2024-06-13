@@ -36,7 +36,7 @@ jQuery(function($) {
     $().loadDependencies();
     $().tooltips();
     //$().stickyMenu();
-    $().mobileMenu('nav#nav_mobile', 'left');
+    $().mobileMenu('nav#nav_mobile', 'right');
     $().smoothScroll();
     $().chosenSelect();
     $().footerAccordion();

@@ -3,8 +3,7 @@
 	.menu__logo {
 		width: 100%;
 		max-width: 260px;
-		margin: 0 15px 15px 15px;
-		display: none;
+		margin: 0 15px 35px 0px;
 		svg {
 			.st0 {
 				fill: #fff;
@@ -51,7 +50,7 @@
 	}
 
 	&.mm-menu {
-		background: $white; border-right: 1px solid $primary;
+		background: $primary;
 
 		.mm-panel {
 			padding: 0;
@@ -81,7 +80,7 @@
 			li {
 				margin-left: 20px;
 				a {
-					color: $primary !important;
+					color: white !important;
 					padding-left: 0 !important;
 					font-size: var(--fl1-font-sm);
 					font-weight: 700;

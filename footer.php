@@ -27,7 +27,7 @@
 					<li><a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
 					<li><a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
 					<li><a href="" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-					<li><a href="https://www.instagram.com/croxley_green_opticians/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+					<li><a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
 				</ul>
 			</div>
 		</div> -->
@@ -37,7 +37,7 @@
 		<div class="spotlight-search--content">
 			<a href="#" class="spotlight-close"><i class="fal fa-times"></i></a>
 
-			<h2>Search Croxley Green Opticians</h2>
+			<h2>Search Annette Dobbs Opticians</h2>
 			<form action="<?php echo esc_url(home_url()); ?>">
 				<input type="text" name="s" placeholder="ie. News" />
 				<button type="submit" class="button primary"><i class="fal fa-search"></i></button>

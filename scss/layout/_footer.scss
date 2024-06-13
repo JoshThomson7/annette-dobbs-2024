@@ -141,7 +141,7 @@ footer {
     }
 
     .footer__menus {
-        padding: 50px 0; background: $primary;
+        padding: 50px 0; background: $tertiary;
 
         @include breakpoint(papabear) {
             padding: 0;
@@ -181,7 +181,7 @@ footer {
             h5 {
                 font-size: 22px;
                 font-weight: 700;
-                color: #fff;
+                color: $text;
                 padding-bottom: 16px;
                 display: flex;
                 align-items: center;
@@ -202,7 +202,7 @@ footer {
             }
 
             p {
-                color: #fff;
+                color: $text;
                 font-size: 14px;
                 margin-bottom: 16px;
                 a {
@@ -248,9 +248,9 @@ footer {
 
                     a {
                         font-size: 14px;
-                        color: #fff;
+                        color: $text;
                         &:hover {
-                            color: $secondary;
+                            color: $primary;
                         }
                     }
                 }

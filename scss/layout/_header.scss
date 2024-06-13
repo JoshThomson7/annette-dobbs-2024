@@ -1,13 +1,17 @@
 ///
 /// Header
 /// 
+
+.header-banner {
+    position: absolute; width: 100%;
+}
+
 header.header {
     width: 100%;
     transition: all 0.4s ease;
     width: 100%;
 	position: relative;
 	z-index: 2;
-    background: $primary;
 
     .header--site__wide__notice {
         padding: 10px 0;
@@ -41,7 +45,6 @@ header.header {
         .max__width {
             width: 100%;
             display: flex;
-            flex-direction: column;
             justify-content: space-between;
             flex-wrap: wrap;
             align-items: center;
@@ -92,11 +95,10 @@ header.header {
         }
 
         .burger__menu {
-            display: none;
             margin-left: 30px;
-            @include breakpoint(1060px) {
-                display: block;
-            }
+            // @include breakpoint(1060px) {
+            //     display: block;
+            // }
 
             i {
                 font-size: 36px;

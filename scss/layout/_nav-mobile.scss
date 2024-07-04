@@ -57,12 +57,12 @@
 			.mm-navbar {
 				.mm-prev {
 					&:before {
-						border-color: $primary;
+						border-color: $white;
 						width: 11px;
 						height: 11px;
 					}
 					&:after {
-						border-color: $primary;
+						border-color: $white;
 						width: 11px;
 						height: 11px;
 					}
@@ -105,9 +105,13 @@
 
 					&.mm-next {
 						&:after {
-							border-color: $primary;
+							border-color: $white;
 							width: 11px;
 							height: 11px;
+						}
+
+						&:before{
+							border-color: $white;
 						}
 					}
 				}

@@ -1,9 +1,15 @@
 ///
 /// Header
-/// 
+///
+
+.home{
+    .header-banner {
+        position: absolute; width: 100%; background: none;
+    }
+}
 
 .header-banner {
-    position: absolute; width: 100%;
+    position: relative; width: 100%; background: $primary;
 }
 
 header.header {
@@ -91,6 +97,15 @@ header.header {
                         }
                     }
                 }
+            }
+        }
+
+        .email{
+            margin-right: 30px;
+
+            i{
+                font-size: 36px;
+                color: #fff;
             }
         }
 

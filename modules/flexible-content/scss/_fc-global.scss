@@ -153,7 +153,7 @@
 /// Background colours
 $fc_bk_colours: (
     primary: $primary,
-    secondary: $secondary,
+    secondary: $tertiary,
     white-bg: #fff,
     black-bg: #000,
     lightgrey-bg: $lightgrey,
@@ -188,6 +188,10 @@ $fc_bk_colours: (
 
             .fc-free-text{
                 p{color: white!important;}
+
+                &.accordion__content{
+                    p{color: $text!important;}
+                }
             }
 
             .grid__boxes__wrapper{
@@ -217,10 +221,10 @@ $fc_bk_colours: (
                 border-bottom: 1px rgba(white, 0.4) solid !important;
 
                 h3 {
-                    color: #fff !important;
+                    color: $text!important;
                 }
                 span {
-                    color: var(--fl1-tertiary) !important;
+                    color: var(--fl1-primary) !important;
                 }
             }
 
@@ -258,9 +262,9 @@ $fc_bk_colours: (
                 }
             }
 
-            .fc-free-text{
-                p{color: #fff;}
-            }
+            // .fc-free-text{
+            //     p{color: #fff;}
+            // }
         } @else if $key == black {
             .fc-layout-heading {
                 h2,

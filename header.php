@@ -36,6 +36,10 @@
                         </div>
 
                         <div class="header__main--right">
+                            <a href="mailto:#" class="email">
+                                <i class="fal fa-envelope"></i>
+                            </a>
+
                             <a href="/contact" class="button primary">Contact</a>
 
                             <a href="#nav_mobile" class="burger__menu">

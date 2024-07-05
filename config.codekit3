@@ -377,6 +377,19 @@
       "oAP" : "\/header.php",
       "oF" : 0
     },
+    "\/img\/_logo.png" : {
+      "ft" : 32768,
+      "iS" : 107940,
+      "oA" : 1,
+      "oAP" : "\/img\/_logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/ajax-loader.gif" : {
       "ft" : 4194304,
       "iS" : 1737,

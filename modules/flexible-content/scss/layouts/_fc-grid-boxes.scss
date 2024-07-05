@@ -150,8 +150,9 @@
                     color: #fff;
                     width: calc(100% - 48px);
                     height: calc(100% - 48px);
+                    background-color: rgba(255, 255, 255, 0.8);
 
-                    h5, h3, p { color: #fff; margin: 0;}
+                    h5, h3, p { color: #000; margin: 0;}
 
                     a { 
                         display: flex;

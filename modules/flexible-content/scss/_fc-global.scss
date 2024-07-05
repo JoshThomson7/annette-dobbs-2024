@@ -163,18 +163,6 @@ $fc_bk_colours: (
     .fc-bg-theme--#{$key} {
         background-color: $fc_bk_colour;
 
-        // .fc-layout-bk {
-        //     background-color: $fc_bk_colour;
-        // }
-
-        // &.fc-layout-bk-btm-gradient {
-        //     background: linear-gradient(
-        //         0deg,
-        //         rgba(darken($fc_bk_colour, 15%), 0.9262079831932774) 0%,
-        //         rgba(255, 255, 255, 0) 100%
-        //     );
-        // }
-
         @if $key == primary or $key == dark {
             .fc-layout-heading {
                 h2{color: $secondary;}
@@ -196,10 +184,27 @@ $fc_bk_colours: (
 
             .grid__boxes__wrapper{
                 button:before {
-                color: white;
+                    color: white;
+                }
             }
+
+            .buttons__wrap{
+                .button{
+                    background: white; color: $primary;
+
+                    &:hover{background: black; color: white;}
+                }
             }
             
+            .fc_feature_wrapper{
+                .feature__action{
+                    .button{
+                        background: white; color: $primary;
+
+                        &:hover{background: black; color: white;}
+                    }
+                }
+            }
 
             .fc_icon_grid_wrapper {
                 article {
@@ -253,18 +258,15 @@ $fc_bk_colours: (
 
             .fc_icon_grid_wrapper {
                 article {
-                    span {
-                        color: lighten($tertiary, 45%) !important;
-                    }
                     p {
-                        color: darken($secondary, 45%) !important;
+                        color: $text!important;
                     }
                 }
             }
 
-            // .fc-free-text{
-            //     p{color: #fff;}
-            // }
+
+
+            
         } @else if $key == black {
             .fc-layout-heading {
                 h2,

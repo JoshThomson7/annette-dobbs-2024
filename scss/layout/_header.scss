@@ -5,11 +5,19 @@
 .home{
     .header-banner {
         position: absolute; width: 100%; background: none;
+
+        .button{
+            background-color: $primary; color: white;
+        }
     }
 }
 
 .header-banner {
     position: relative; width: 100%; background: $primary;
+
+    .button{
+        background-color: white; color: $primary;
+    }
 }
 
 header.header {

@@ -41,7 +41,7 @@ Feature
 
         }
 
-        .feature__text { padding-left: 40px;
+        .feature__text { padding-left: 40px; padding-right: 40px;
             @include breakpoint(grandmabear) { padding-left: 20px;}
             @include breakpoint(brotherbear) { width:100%; border-left: none;}
 

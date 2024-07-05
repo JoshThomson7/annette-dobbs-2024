@@ -48,9 +48,10 @@
 
             //start the slider
             slideWrapper.slick({
-                autoplaySpeed: firstSlide.data('duration'),
+                autoplaySpeed: 1000,
                 lazyLoad: 'progressive',
                 speed: 600,
+                autoplay: true,
                 arrows: false,
                 dots: true,
                 rows: 0,

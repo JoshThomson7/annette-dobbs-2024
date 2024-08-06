@@ -55,6 +55,7 @@
                 arrows: false,
                 dots: true,
                 rows: 0,
+                pauseOnHover: false,
                 cssEase: 'cubic-bezier(0.87, 0.03, 0.41, 0.9)'
             });
 

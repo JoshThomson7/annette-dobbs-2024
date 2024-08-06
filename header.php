@@ -36,7 +36,7 @@
                         </div>
 
                         <div class="header__main--right">
-                            <a href="mailto:#" class="email">
+                            <a href="mailto:info@annettedobbsopticians.com" class="email">
                                 <i class="fal fa-envelope"></i>
                             </a>
 

@@ -23,7 +23,7 @@ Feature
 
         .feature__image { position:relative; overflow:hidden; flex: 1; position: sticky; top: 20px;
 
-            @include breakpoint(grandmabear) { border-right: 20px solid transparent;}
+            @include breakpoint(grandmabear) { border-right: none;}
             @include breakpoint(brotherbear) { margin-bottom:20px; width:100%; border-right: none; border-radius: 5px !important; display: block; top: auto;}
 
             a { background:rgba(0, 0, 0, 0.6); position:absolute; width:100%; height:100%; top:0; left:0; z-index:1; box-sizing:border-box; display: flex; justify-content: center; align-items: center;
@@ -38,15 +38,24 @@ Feature
                     figure { transition:all .4s ease; transform:scale(1.2);}
                 }
             }
+            
+            img{
+                @include breakpoint(900px){margin: 0 auto;}
+            }
 
         }
 
         .feature__text { padding-left: 40px; padding-right: 40px;
-            @include breakpoint(grandmabear) { padding-left: 20px;}
+            @include breakpoint(grandmabear) { padding: 20px;}
             @include breakpoint(brotherbear) { width:100%; border-left: none;}
+            @include breakpoint(900px){text-align: center; display: flex; flex-direction: column; align-items: center;}
 
             h3 { font-size: 28px; font-weight: 700; line-height: 44px; color: var(--fl1-primary); margin-bottom: 20px;}
             h5 { font-size: 15px; font-weight: 600; margin-bottom: 10px; color: var(--fl1-primary); text-transform: uppercase; line-height: normal; letter-spacing: 1px;}
+
+            p{
+                &:last-child{margin-bottom: 0;}
+            }
 
 			li, p {
 				font-size: var(--fl1-font-xs);
@@ -111,7 +120,7 @@ Feature
 
             .feature__image { order:1; border-right:none;
 
-                @include breakpoint(grandmabear) { border-left: 20px solid transparent;}
+                @include breakpoint(grandmabear) { border-left: none;}
                 @include breakpoint(brotherbear) { width:100%; order:0; border-left:none; }
 
                 &.as__bg { position: absolute; right: 0; left: auto;}

@@ -46,6 +46,8 @@
         color: var(--fl1-text);
         margin-bottom: var(--fl1-spacing-sm);
         font-family: $textFont;
+
+        @include breakpoint(550px){font-size: 24px;}
     }
 
     p {
@@ -101,7 +103,7 @@
             margin: 0 auto;
 			width: 100%;
             h2 {
-                max-width: 80%;
+                max-width: 100%;
                 &:after {
                     margin: 20px auto;
                 }
@@ -240,6 +242,8 @@ $fc_bk_colours: (
                     }
                     p {
                         color: lighten($primary, 65%) !important;
+
+                        a{color: white!important; text-decoration: underline;}
                     }
                 }
             }

@@ -32,7 +32,7 @@ h6 {
 }
 
 p {
-	font-size: var(--fl1-font-xs);
+	font-size: var(--fl1-font-sm);
 	color: var(--fl1-text);
 	margin-bottom: var(--fl1-font-xl);
 	font-weight: 400;
@@ -52,7 +52,7 @@ p {
 	}
 
 	img { 
-		border-radius: var(--fl1-radius-md);
+		// border-radius: var(--fl1-radius-md);
 	}
 
 	&:last-child {

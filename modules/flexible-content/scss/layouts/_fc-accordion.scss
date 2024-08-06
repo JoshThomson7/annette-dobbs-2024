@@ -32,10 +32,12 @@ Accordion
 			display: flex;
 			justify-content: space-between;
 			padding: var(--fl1-spacing-md);
-			font-size: var(--fl1-font-sm);
+			font-size: 20px;
 			font-weight: 600;
 			color: var(--fl1-text);
 			cursor: pointer;
+
+			@include breakpoint(550px){font-size: 18px;}
 
 			span {
 				display: block;
@@ -49,6 +51,10 @@ Accordion
 			padding: 0 var(--fl1-spacing-md) var(--fl1-spacing-md);
 			display: none;
 			@include dontbreak();
+
+			p{
+				@include breakpoint(550px){font-size: 16px;}
+			}
 		}
 
 		.accordion__bg {

@@ -191,13 +191,18 @@ footer {
                     cursor: pointer;
                 }
 
+                @include breakpoint(550px){font-size: 18px;}
+
                 i {
                     display: none;
-                    font-size: 14px;
-                    color: var(--fl1-white);
+                    font-size: 24px;
+                    color: $primary;
                     @include breakpoint(papabear) {
                         display: block;
                     }
+
+                    @include breakpoint(550px){font-size: 20px;}
+
                 }
             }
 

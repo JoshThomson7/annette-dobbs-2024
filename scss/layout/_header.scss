@@ -8,6 +8,7 @@
 
         .button{
             background-color: $primary; color: white;
+            @include breakpoint(500px){display: none;}
         }
     }
 }
@@ -62,6 +63,8 @@ header.header {
             justify-content: space-between;
             flex-wrap: wrap;
             align-items: center;
+
+            @include breakpoint(300px){justify-content: center;}
         }
 
         &--left {
@@ -75,6 +78,9 @@ header.header {
                 width: 270px;
                 transition: all 0.4s ease;
                 margin-right: var(--fl1-spacing-xs);
+
+                @include breakpoint(600px){width: 190px;}
+                @include breakpoint(450px){margin-right: 0;}
             }
         }
 
@@ -110,6 +116,7 @@ header.header {
 
         .email{
             margin-right: 30px;
+            @include breakpoint(500px){display: none;}
 
             i{
                 font-size: 36px;
@@ -119,9 +126,9 @@ header.header {
 
         .burger__menu {
             margin-left: 30px;
-            // @include breakpoint(1060px) {
-            //     display: block;
-            // }
+            @include breakpoint(450px) {
+                margin-left: 0;
+            }
 
             i {
                 font-size: 36px;

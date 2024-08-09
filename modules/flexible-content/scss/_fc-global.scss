@@ -190,6 +190,12 @@ $fc_bk_colours: (
                 }
             }
 
+            .fc_steps--wrapper{
+                .fc_step-content{
+                    p{color: white;}
+                }
+            }
+
             .buttons__wrap{
                 .button{
                     background: white; color: $primary;

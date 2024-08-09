@@ -23,6 +23,7 @@ footer {
         border-bottom: 1px lighten(#fff, 10%) solid;
         padding: 32px 0;
         text-align: center;
+        background: $primary;
 
         @include breakpoint(grandpabear) {
             flex-direction: column;
@@ -32,11 +33,23 @@ footer {
             margin-bottom: 0;
         }
 
-        h3 {
+        h2 {
             font-size: 22px;
             font-weight: 800;
             color: var(--fl1-white);
             margin-bottom: 16px;
+        }
+
+        .indicates-required{color: white;}
+
+        label{color: white;}
+
+        #mc_embed_signup{
+            max-width: 550px; margin: 0 auto;
+        }
+
+        .mc-field-group{
+            width: 100%!important; padding-bottom: 20px!important;
         }
 
         &__form {
@@ -138,6 +151,8 @@ footer {
                 }
             }
         }
+
+        .refferal_badge{display: none!important;}
     }
 
     .footer__menus {

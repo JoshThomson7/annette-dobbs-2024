@@ -37,7 +37,7 @@ body.fc-overlap {
 
 .flexible__content {
 	position: relative;
-	z-index: 1;
+	z-index: 9999999;
 
 	@import 'fc-global';
 	@import 'layouts/fc-accordion';

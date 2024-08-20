@@ -7,7 +7,7 @@
     <meta name="format-detection" content="telephone=no">
     <script src="https://kit.fontawesome.com/f6f8cbf1c2.js" crossorigin="anonymous"></script>
     <?php wp_head(); ?>
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/b1caaa2559e812e3f14ce412c/0952661f9dbebde5b55ce4984.js");</script></head>
+    <!-- <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/b1caaa2559e812e3f14ce412c/0952661f9dbebde5b55ce4984.js");</script></head> -->
 
 <body <?php body_class(); ?>>
 

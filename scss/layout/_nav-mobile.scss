@@ -104,6 +104,7 @@
 					}
 
 					&.mm-next {
+						@include breakpoint(550px){right: 0px;}
 						&:after {
 							border-color: $white;
 							width: 11px;
